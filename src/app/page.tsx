@@ -1,12 +1,13 @@
 import React from "react";
-import Users from "./Users";
+import Header from "./Components/Header";
+
+// import Image from "next/image";
 
 const page = () => {
   return (
-    <div>
-      <h1 className="text-red-600 font-bold">Heading texxt</h1>
-      <Users />
-    </div>
+    <main>
+      <Header />
+    </main>
   );
 };
 
